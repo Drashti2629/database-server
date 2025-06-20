@@ -2,66 +2,53 @@
   "tasks": [
     {
       "id": 1,
-      "title": "Complete project proposal",
-      "description": "Draft a proposal for the upcoming client meeting, including goals, scope, and timeline.",
-      "completed": false,
-      "dueDate": "2025-06-25",
+      "name": "Complete project proposal",
+      "description": "Draft proposal for client meeting",
+      "priority": "High",
+      "dueDate": "2025-06-05",
+      "isCompleted": false,
       "userId": 1,
       "categoryId": 1
     },
     {
       "id": 2,
-      "title": "Review code",
-      "description": "Review the pull request submitted by the frontend team for UI refactor.",
-      "completed": true,
-      "dueDate": "2025-06-22",
+      "name": "Review code",
+      "description": "Review pull request for team",
+      "priority": "Medium",
+      "dueDate": "2025-06-03",
+      "isCompleted": true,
       "userId": 2,
       "categoryId": 1
     },
     {
       "id": 3,
-      "title": "Team Stand-up",
-      "description": "Daily scrum meeting to discuss progress and blockers.",
-      "completed": false,
-      "dueDate": "2025-06-21",
+      "name": "Update documentation",
+      "description": "Revise and upload latest API documentation",
+      "priority": "Medium",
+      "dueDate": "2025-06-10",
+      "isCompleted": false,
+      "userId": 3,
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Design team meeting",
+      "description": "Discuss UI feedback and new components",
+      "priority": "Low",
+      "dueDate": "2025-06-15",
+      "isCompleted": false,
       "userId": 1,
       "categoryId": 2
     },
     {
-      "id": 4,
-      "title": "Update documentation",
-      "description": "Revise the API documentation with the latest endpoints and examples.",
-      "completed": false,
-      "dueDate": "2025-07-01",
-      "userId": 2,
-      "categoryId": 1
-    },
-    {
       "id": 5,
-      "title": "Client demo preparation",
-      "description": "Prepare assets, demo data, and script for the client walkthrough.",
-      "completed": false,
-      "dueDate": "2025-07-03",
-      "userId": 1,
-      "categoryId": 1
-    },
-    {
-      "id": 6,
-      "title": "Security audit checklist",
-      "description": "Create a checklist for security compliance and vulnerability testing.",
-      "completed": false,
-      "dueDate": "2025-07-10",
+      "name": "Project planning session",
+      "description": "Breakdown new features and timelines",
+      "priority": "High",
+      "dueDate": "2025-06-20",
+      "isCompleted": false,
       "userId": 2,
       "categoryId": 1
-    },
-    {
-      "id": 7,
-      "title": "Design feedback loop",
-      "description": "Gather feedback from the design team and incorporate changes.",
-      "completed": true,
-      "dueDate": "2025-06-28",
-      "userId": 3,
-      "categoryId": 3
     }
   ],
   "users": [
@@ -92,7 +79,7 @@
     },
     {
       "id": 3,
-      "name": "Design"
+      "name": "Personal"
     }
   ]
 }
