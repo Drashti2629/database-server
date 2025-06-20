@@ -1,20 +1,60 @@
 {
-"tasks": [
-{
-"id": 1,
-"name": "Complete project proposal",
-"description": "Draft proposal for client meeting",
-"priority": "High",
-"dueDate": "2025-06-05",
-"isCompleted": false
-},
-{
-"id": 2,
-"name": "Review code",
-"description": "Review pull request for team",
-"priority": "Medium",
-"dueDate": "2025-06-03",
-"isCompleted": true
-}
-]
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Complete project proposal",
+      "description": "Draft a proposal for the upcoming client meeting, including goals, scope, and timeline.",
+      "priority": "High",
+      "dueDate": "2025-06-25",
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "name": "Review code",
+      "description": "Review the pull request submitted by the frontend team for UI refactor.",
+      "priority": "Medium",
+      "dueDate": "2025-06-22",
+      "isCompleted": true
+    },
+    {
+      "id": 3,
+      "name": "Team Stand-up",
+      "description": "Daily scrum meeting to discuss progress and blockers.",
+      "priority": "Low",
+      "dueDate": "2025-06-21",
+      "isCompleted": false
+    },
+    {
+      "id": 4,
+      "name": "Update documentation",
+      "description": "Revise the API documentation with the latest endpoints and examples.",
+      "priority": "Medium",
+      "dueDate": "2025-07-01",
+      "isCompleted": false
+    },
+    {
+      "id": 5,
+      "name": "Client demo preparation",
+      "description": "Prepare assets, demo data, and script for the client walkthrough.",
+      "priority": "High",
+      "dueDate": "2025-07-03",
+      "isCompleted": false
+    },
+    {
+      "id": 6,
+      "name": "Security audit checklist",
+      "description": "Create a checklist for security compliance and vulnerability testing.",
+      "priority": "High",
+      "dueDate": "2025-07-10",
+      "isCompleted": false
+    },
+    {
+      "id": 7,
+      "name": "Design feedback loop",
+      "description": "Gather feedback from the design team and incorporate changes.",
+      "priority": "Medium",
+      "dueDate": "2025-06-28",
+      "isCompleted": true
+    }
+  ]
 }
