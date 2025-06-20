@@ -1,60 +1,98 @@
 {
-  "tasks": [
+  "todos": [
     {
       "id": 1,
-      "name": "Complete project proposal",
+      "title": "Complete project proposal",
       "description": "Draft a proposal for the upcoming client meeting, including goals, scope, and timeline.",
-      "priority": "High",
+      "completed": false,
       "dueDate": "2025-06-25",
-      "isCompleted": false
+      "userId": 1,
+      "categoryId": 1
     },
     {
       "id": 2,
-      "name": "Review code",
+      "title": "Review code",
       "description": "Review the pull request submitted by the frontend team for UI refactor.",
-      "priority": "Medium",
+      "completed": true,
       "dueDate": "2025-06-22",
-      "isCompleted": true
+      "userId": 2,
+      "categoryId": 1
     },
     {
       "id": 3,
-      "name": "Team Stand-up",
+      "title": "Team Stand-up",
       "description": "Daily scrum meeting to discuss progress and blockers.",
-      "priority": "Low",
+      "completed": false,
       "dueDate": "2025-06-21",
-      "isCompleted": false
+      "userId": 1,
+      "categoryId": 2
     },
     {
       "id": 4,
-      "name": "Update documentation",
+      "title": "Update documentation",
       "description": "Revise the API documentation with the latest endpoints and examples.",
-      "priority": "Medium",
+      "completed": false,
       "dueDate": "2025-07-01",
-      "isCompleted": false
+      "userId": 2,
+      "categoryId": 1
     },
     {
       "id": 5,
-      "name": "Client demo preparation",
+      "title": "Client demo preparation",
       "description": "Prepare assets, demo data, and script for the client walkthrough.",
-      "priority": "High",
+      "completed": false,
       "dueDate": "2025-07-03",
-      "isCompleted": false
+      "userId": 1,
+      "categoryId": 1
     },
     {
       "id": 6,
-      "name": "Security audit checklist",
+      "title": "Security audit checklist",
       "description": "Create a checklist for security compliance and vulnerability testing.",
-      "priority": "High",
+      "completed": false,
       "dueDate": "2025-07-10",
-      "isCompleted": false
+      "userId": 2,
+      "categoryId": 1
     },
     {
       "id": 7,
-      "name": "Design feedback loop",
+      "title": "Design feedback loop",
       "description": "Gather feedback from the design team and incorporate changes.",
-      "priority": "Medium",
+      "completed": true,
       "dueDate": "2025-06-28",
-      "isCompleted": true
+      "userId": 3,
+      "categoryId": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "email": "charlie@example.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Work"
+    },
+    {
+      "id": 2,
+      "name": "Meetings"
+    },
+    {
+      "id": 3,
+      "name": "Design"
     }
   ]
 }
