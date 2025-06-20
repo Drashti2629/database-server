@@ -1,0 +1,20 @@
+{
+"todos": [
+{
+"id": 1,
+"name": "Complete project proposal",
+"description": "Draft proposal for client meeting",
+"priority": "High",
+"dueDate": "2025-06-05",
+"isCompleted": false
+},
+{
+"id": 2,
+"name": "Review code",
+"description": "Review pull request for team",
+"priority": "Medium",
+"dueDate": "2025-06-03",
+"isCompleted": true
+}
+]
+}
